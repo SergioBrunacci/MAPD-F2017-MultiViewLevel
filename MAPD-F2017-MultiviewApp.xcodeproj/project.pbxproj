@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F524E0911F85A713003E8312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F524E0901F85A713003E8312 /* AppDelegate.swift */; };
-		F524E0931F85A713003E8312 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F524E0921F85A713003E8312 /* ViewController.swift */; };
 		F524E0961F85A713003E8312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F524E0941F85A713003E8312 /* Main.storyboard */; };
 		F524E0981F85A713003E8312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F524E0971F85A713003E8312 /* Assets.xcassets */; };
 		F524E09B1F85A713003E8312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F524E0991F85A713003E8312 /* LaunchScreen.storyboard */; };
+		F524E0A31F85A9CB003E8312 /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F524E0A21F85A9CB003E8312 /* SwitchingViewController.swift */; };
+		F524E0A51F85AC4C003E8312 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F524E0A41F85AC4C003E8312 /* YellowViewController.swift */; };
+		F524E0A71F85AC5D003E8312 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F524E0A61F85AC5D003E8312 /* BlueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F524E08D1F85A713003E8312 /* MAPD-F2017-MultiviewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD-F2017-MultiviewApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F524E0901F85A713003E8312 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F524E0921F85A713003E8312 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F524E0951F85A713003E8312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F524E0971F85A713003E8312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F524E09A1F85A713003E8312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F524E09C1F85A713003E8312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F524E0A21F85A9CB003E8312 /* SwitchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewController.swift; sourceTree = "<group>"; };
+		F524E0A41F85AC4C003E8312 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		F524E0A61F85AC5D003E8312 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		F524E08F1F85A713003E8312 /* MAPD-F2017-MultiviewApp */ = {
 			isa = PBXGroup;
 			children = (
+				F524E0A21F85A9CB003E8312 /* SwitchingViewController.swift */,
+				F524E0A41F85AC4C003E8312 /* YellowViewController.swift */,
+				F524E0A61F85AC5D003E8312 /* BlueViewController.swift */,
 				F524E0901F85A713003E8312 /* AppDelegate.swift */,
-				F524E0921F85A713003E8312 /* ViewController.swift */,
 				F524E0941F85A713003E8312 /* Main.storyboard */,
 				F524E0971F85A713003E8312 /* Assets.xcassets */,
 				F524E0991F85A713003E8312 /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F524E0931F85A713003E8312 /* ViewController.swift in Sources */,
 				F524E0911F85A713003E8312 /* AppDelegate.swift in Sources */,
+				F524E0A51F85AC4C003E8312 /* YellowViewController.swift in Sources */,
+				F524E0A71F85AC5D003E8312 /* BlueViewController.swift in Sources */,
+				F524E0A31F85A9CB003E8312 /* SwitchingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
